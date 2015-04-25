@@ -15,6 +15,7 @@ gem 'turbolinks',             '>= 3.0.0',     :git => 'https://github.com/rails/
 gem 'uglifier',               '>= 1.3.0'
 
 group :development do
+  gem 'awesome_print',        '~> 1.6'
   # gem 'capistrano-rails'
   # gem 'capistrano3-puma'
   gem 'rubocop',              '~> 0.30.0'

@@ -7,12 +7,16 @@ gem 'coffee-rails',           '~> 4.1.0'
 gem 'jquery-rails',           '~> 4.0.0'
 gem 'jquery-turbolinks',      '~> 2.1.0'
 gem 'pg',                     '~> 0.18.1'
+gem 'puma',                   '~> 2.11.2'
+# gem "pundit",                 '~> 1.0.0'        # Authorization gem to handle User roles / policies
 gem 'sass-rails',             '~> 5.0'
+# gem 'sucker_punch',           '~> 1.0'        # asynchronous processing with ActiveJob http://edgeguides.rubyonrails.org/active_job_basics.html
 gem 'turbolinks',             '>= 3.0.0',     :git => 'https://github.com/rails/turbolinks.git', :branch => 'master'
 gem 'uglifier',               '>= 1.3.0'
 
 group :development do
   # gem 'capistrano-rails'
+  # gem 'capistrano3-puma'
   gem 'rubocop',              '~> 0.30.0'
 end
 

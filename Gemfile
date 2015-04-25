@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',                  '4.2.1'         # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-# gem 'bcrypt',                 '~> 3.1.7'      # Use ActiveModel has_secure_password
+gem 'bcrypt',                 '~> 3.1.10'    # Use ActiveModel has_secure_password
 gem 'carrierwave',                           :git => 'https://github.com/carrierwaveuploader/carrierwave', :branch => 'master'
 gem 'carrierwave-dropbox',    '~> 1.2.1'
 gem 'coffee-rails',           '~> 4.1.0'

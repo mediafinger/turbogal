@@ -13,6 +13,7 @@ gem 'uglifier',               '>= 1.3.0'
 
 group :development do
   # gem 'capistrano-rails'
+  gem 'rubocop',              '~> 0.30.0'
 end
 
 group :development, :test do

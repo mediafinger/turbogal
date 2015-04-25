@@ -1,0 +1,8 @@
+de:
+  errors:
+    messages:
+      carrierwave_download_error: "Bild konnte nicht hochgeladen werden."
+      carrierwave_integrity_error: "Keine Bilddatei."
+      carrierwave_processing_error: "Bild konnte nicht verarbeitet werden."
+      extension_black_list_error: "Du kannst keine Dateien mit der Endung %{extension} hochladen, verbotene Dateitypen: %{prohibited_types}"
+      extension_white_list_error: "Du kannst keine Dateien mit der Endung %{extension} hochladen, erlaubte Dateitypen: %{allowed_types}"

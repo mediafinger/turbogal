@@ -22,5 +22,16 @@ module Turbogal
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.generators do |g|
+      g.assets              false
+      g.controller_specs    false
+      g.helper              false
+      g.javascripts         false
+      g.stylesheets         false
+      g.template_engine     :haml
+      g.test_framework      :rspec, fixture: false
+      g.view_specs          false
+    end
   end
 end

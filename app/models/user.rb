@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :images
+
   has_secure_password validations: false  # use the validatons below
 
   # very simple email matcher ~ "includes an @ and a . and some charachters around them"

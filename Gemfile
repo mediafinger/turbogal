@@ -8,6 +8,7 @@ gem 'carrierwave-dropbox',    '~> 1.2.1'
 gem 'coffee-rails',           '~> 4.1.0'
 gem 'jquery-rails',           '~> 4.0.0'
 gem 'jquery-turbolinks',      '~> 2.1.0'
+gem 'mini_magick',            '~> 4.2.3'      # used by Carrierwave to process images with ImageMagick
 gem 'pg',                     '~> 0.18.1'
 gem 'puma',                   '~> 2.11.2'
 # gem "pundit",                 '~> 1.0.0'      # Authorization gem to handle User roles / policies

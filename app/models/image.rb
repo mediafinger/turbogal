@@ -1,5 +1,7 @@
 class Image < ActiveRecord::Base
   belongs_to :user
+  has_many   :album_images
+  has_many   :albums, through: :album_images
 
   mount_uploader :image, ImageUploader
 

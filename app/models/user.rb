@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  has_many :albums
   has_many :images
 
   has_secure_password validations: false  # use the validatons below

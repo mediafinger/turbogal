@@ -10,6 +10,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
-/tmp
+
+# Ignore those directories
 /doc
+/public
+/tmp
 /vendor

@@ -16,6 +16,7 @@ gem 'sass-rails',             '~> 5.0.0'
 # gem 'sucker_punch',           '~> 1.0'        # asynchronous processing with ActiveJob http://edgeguides.rubyonrails.org/active_job_basics.html
 gem 'turbolinks',             '>= 3.0.0',     :git => 'https://github.com/rails/turbolinks.git', :branch => 'master'
 gem 'uglifier',               '>= 1.3.0'
+gem 'upsert'
 
 group :development do
   gem 'awesome_print',        '~> 1.6'
